@@ -15,6 +15,7 @@ public class App {
         Book book3 = new Book("Grom", author3, 1825);
         System.out.println(book3.equals(book1));
         System.out.println(book3.equals(book2));
+        System.out.println("book2.toString() = " + book2.toString());
 
     }
     }
